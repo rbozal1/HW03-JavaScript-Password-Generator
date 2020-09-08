@@ -14,10 +14,10 @@ var lowerCasedChar = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n',
 //array of numeric characters
 var numericChar = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
-//set variables for later use
+//set variables for a later use
 var values = "";
 var randomPassword = "";
-// generate a password with randomly selected characters with maximum numbers
+// function to generate a new randomly selected  password based on user input for different character types
 function generatePassword() {
 var passwordLength = (prompt("How many characters would you like to use for your password?"));
   //loop through the requirements of the password length
@@ -45,6 +45,7 @@ var confirmLowerChar = confirm("Would you like to use upper case characters?");
 var confirmUpperChar = confirm("Would you like to use numeric characters?"); 
 } 
 
+//use the pre initialized var values to dynamically create the password based on user array choices
 if (confirmSpecialChar) {
   values = values.concat(specialChar)
 }
@@ -63,6 +64,7 @@ if (confirmNumeriChar) {
 
 // console.log(values)
 
+//loops through values selecting random characters for creating a password and displaying it on the page
 for(var i = 0; i < passwordLength; i++) {
   randomPassword += values.charAt(Math.floor(Math.random() * values.length)
   );
