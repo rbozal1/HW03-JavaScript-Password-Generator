@@ -16,7 +16,7 @@ Next the user must confirm different characters that will be included in their g
 A function will run and generate a random password based on the selected criteria. 
 
 
-# Site Link:
+## Site Link:
 https://rbozal1.github.io/HW03-JavaScript-Password-Generator/.
 
 
