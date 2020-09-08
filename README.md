@@ -9,9 +9,9 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security.
 
 ## Acceptance Criteria
-A prompt displays and request the user to input password length after clicking the generate button.An user should be a numberbetween 8 and 128.
+A prompt displays and requests from the user to input a password length after clicking the generate button.The length of the password should be a between 8 and 128 characters in order to be valid.
 
-On other Criteria the user will confirm different criteria that will be included in their generated password such as confirmlower case,confirm uppercase, confirm numeric characters and confirm Special Characters. The password must include one parameter to be valid.
+Next the user must confirm different characters that will be included in their generated password such as confirmlower case,confirm uppercase, confirm numeric characters and confirm Special Characters. The password must include one parameter to be valid.
 
 A function will run and generate a random password based on the selected criteria. 
 
